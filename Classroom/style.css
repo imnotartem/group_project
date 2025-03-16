@@ -1,1 +1,22 @@
+  .btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 18px;
+    font: bold;
+    color: white;
+    background-color: linear-gradient(45deg, #007bff, #00d4ff);
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+    box-shadow: 4px 10px rgba(0, 123, 255, 0.3);
+  }
+
+  .btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 123, 255, 0.5);
+  }
+
+  .btn:active {
+    transform: scale(0.95);
+  }
+
 
