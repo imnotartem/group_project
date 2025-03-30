@@ -1,21 +1,127 @@
-  .btn {
-    padding: 12px 24px;
-    font-size: 18px;
-    font: bold;
-    color: white;
-    background-color: linear-gradient(#007bff, #00d4ff);
-    border-radius: 8px;
-    transition: 0.3s ease-in-out;
-    box-shadow: 4px 10px rgba(0, 123, 255, 0.3);
-  }
+#btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background: #1A73E8;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: ease-in-out;
+  transition-duration: 0.3;
+}
 
-  .btn:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 6px 15px rgba(0, 123, 255, 0.5);
-  }
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .btn:active {
-    transform: scale(0.95);
-  }
+.first-scr {
+  text-align: center;
+  color: #fff;
+  background-color: rgb(0, 0, 0,);
+  padding: 30px 40px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+#btn:hover {
+  background: #1666C1;
+  transform: scale(1.05);
+}
+
+p {
+  color: #5F6368;
+  font-size: 16px;
+  margin-bottom: 11px;
+}
+
+.main-scr {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.sidebar{
+  position: fixed;
+  width: 250px;
+  height: 100vh;
+  background-color: #f7f7f7;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0,0,0, 0.1);
+  border-right: 2px solid #dddddda1;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo{
+  font-size: 21px;
+  font-weight: bold;
+  color: #1A73E8;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li{
+  color: #3d3d3d;
+  padding: 10px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  transition-property: color;
+  transition: ease-in-out;
+  transition-duration: 0.3s;
+  transition-property: background;
+  transition: ease-in-out;
+  transition-duration: 0.3s;
+}
+
+.sidebar li:hover{
+  background-color: #e8f0fe;
+  color: #1A73E8;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 250px;
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.join-class {
+  background-color: #1A73E8;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  padding: 12px 24px;
+  transition: ease-in-out;
+  transition-duration: 0.3;
+  margin-top: 20px;
+}
+
+.join-class:hover{
+  background-color: #155ac1;
+  transition-duration: 0.3s;
+  transform: scale(1.1);
+}
 
 
+/*linear-gradient(#99dd88, #3eb321c9) */
