@@ -1,1 +1,64 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classroom</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--
+    <div class="first-scr">
+        <h1>Classroom</h1>
+        <p>Нажміть щоб увійти</p>
+        <input id="btn" type="button"></input>
+        <p>Увійдіть</p>
+    </div>              
+-->
 
+    <div class="main-scr">
+        <div class="sidebar">
+            <div style="margin-top: -30px;margin-left: -20px;" class="clal">
+                <div><img style="width:40px;height:40px;border-radius: 15px;" img src="hhh.png"><a href = "classroom.html"></a></div></a><div style="margin-top: -25px;"><img src="classroom.jpg" style="width:30px;height:25px;margin-left: 70px;margin-top: -40px;"/></div></li><div></a><div style="margin-top: -30px;"><a style="margin-left:105px;margin-top:29px;color:rgba(85, 83, 83, 0.43);font-size: 23px;width: 40px;height: 40px;margin-top: -50px;" href = "classroom.html">Клас</a></div></li><div style="background-color: rgba(97, 96, 96, 0.192);border-radius: 7px;margin-top: 40px;" class="logo"></div></div>
+                <div><h2 style="margin-left:45px;margin-top:-115px;color:rgb(75, 73, 73);"></h2></div>
+            </div>
+            <ul>
+                <header style="margin-top: 70px;" alig1 = "center">
+                    <ul>
+                        <div >
+                            <div>
+                                <li style="border-radius: 15px;width:265px;height:33px;margin-left: -28px;"><img src="home (2).png" style="width:19px;height:17px;"/><a href = "main1.html">Головна</a></li>
+                                
+                            </div>
+                            <div>
+                                <li style="border-radius: 15px;width:265px;height:33px;margin-left: -30px;"><img src="calendar.png" style="width:24px;height:25px;"/><a href = "calendar.html">Календар</a></li>
+                                
+                            </div>
+                        </div>
+                        <div><h5 style="color: rgba(97, 96, 96, 0.192);margin-top: 10px;margin-left: -25px;">________________________________________</h5></div>
+                        <div>
+                            <div>
+                                <li style="border-radius: 15px;width:265px;height:33px;margin-left: -30px;"><img src="bacalavra.png" style="width:24px;height:25px;"/><a href = "Mycourses.html">Мої курси</a></li>
+                                
+                            </div>
+                            <div>
+                                <li style="border-radius: 15px;width:265px;height:33px;margin-left: -28px;"><img src="class.png" style="width:29px;height:30px;"/><a href = "classes.html">Мій Клас</a></li>
+                                
+                            </div>
+                            <h5 style="color: rgba(97, 96, 96, 0.192);margin-top: 10px;margin-left: -25px;">________________________________________</h5>
+                            <div>
+                                <li style="border-radius: 15px;width:265px;height:33px;margin-left: -28px;"><img src="settings.png" style="width:20px;height:20px;"/><a href = "settenings.html">Налаштування</a></li>
+                                
+                            </div>
+                    </div>
+                    </ul>
+                    <p style="margin-top: 440px;margin-left: -80px;font-style: italic;color:rgba(128, 128, 128, 0.456);">#Classroom by GoogleTeam</p>
+
+                </body>
+                </header>           
+            </ul>
+            
+        </div>
+    </div>
+
+</html>
